@@ -50,21 +50,6 @@ section h2 {
   text-align: center;
   color: #ffcc00;
 }
-.btn {
-  display: inline-block;
-  padding: 8px 15px;
-  background: #ffcc00;
-  color: #111;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.btn: hover {
-  background: #ffaa00;
-}
-
 
 /* Projects */
 .project {
@@ -87,6 +72,25 @@ section h2 {
 
 .project p {
   margin: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-top: 10px;
+  background: #ffcc00;        /* Rockstar-style yellow highlight */
+  color: #111;                /* Dark text for contrast */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+
+.btn:hover {
+  background: #ffaa00;        /* Slightly darker yellow on hover */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
 }
 
 /* Contact */
