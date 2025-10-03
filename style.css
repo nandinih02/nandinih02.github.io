@@ -50,6 +50,21 @@ section h2 {
   text-align: center;
   color: #ffcc00;
 }
+.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #ffcc00;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn: hover {
+  background: #ffaa00;
+}
+
 
 /* Projects */
 .project {
